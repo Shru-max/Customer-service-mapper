@@ -1,4 +1,4 @@
-package com.example.demo.customerservice.shared;
+package com.example.demo.shared;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -15,4 +15,3 @@ public class CustomerRequestModel {
     private String lastName;
     private double amount;
 }
-

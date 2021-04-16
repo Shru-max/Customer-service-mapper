@@ -1,9 +1,10 @@
-package com.example.demo.customerservice.service;
+package com.example.demo.service;
 
-import com.example.demo.customerservice.dao.CustomerRepository;
-import com.example.demo.customerservice.model.CustomerModel;
-import com.example.demo.customerservice.shared.CustomerRequestModel;
-import com.example.demo.customerservice.shared.CustomerResponseModel;
+import com.example.demo.dao.CustomerRepository;
+import com.example.demo.model.CustomerModel;
+
+import com.example.demo.shared.CustomerRequestModel;
+import com.example.demo.shared.CustomerResponseModel;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.convention.MatchingStrategies;
 import org.springframework.beans.factory.annotation.Autowired;
