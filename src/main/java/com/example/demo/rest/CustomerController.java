@@ -1,8 +1,9 @@
-package com.example.demo.customerservice.rest;
+package com.example.demo.rest;
 
-import com.example.demo.customerservice.service.CustomerService;
-import com.example.demo.customerservice.shared.CustomerRequestModel;
-import com.example.demo.customerservice.shared.CustomerResponseModel;
+import com.example.demo.service.CustomerService;
+
+import com.example.demo.shared.CustomerRequestModel;
+import com.example.demo.shared.CustomerResponseModel;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

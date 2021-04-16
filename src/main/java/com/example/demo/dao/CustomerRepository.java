@@ -1,6 +1,6 @@
-package com.example.demo.customerservice.dao;
+package com.example.demo.dao;
 
-import com.example.demo.customerservice.model.CustomerModel;
+import com.example.demo.model.CustomerModel;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
